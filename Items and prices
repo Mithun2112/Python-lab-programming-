@@ -14,4 +14,17 @@ sorted_items_and_prices = sorted(items_and_prices, key=itemgetter(1), reverse=Tr
 
 
 for item, price in sorted_items_and_prices:
-    print(f"{item}: Rs.{price})
+    print(f"{item}: Rs.{price}")
+
+
+Output:
+
+Watermelon: Rs.60.0
+
+Grapes: Rs.40.25
+
+Orange: Rs.33.0
+
+Apple: Rs.22.5
+
+Banana: Rs.10.75
