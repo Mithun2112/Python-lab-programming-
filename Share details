@@ -6,27 +6,4 @@ shares_held = [
     ("SHARE 5", 700.00, 20, 790.00)
 ]
 print(shares_held)
-shares_held = [
-    ("SHARE 1",  150.50, 100, 175.25),  
-    ("SHARE 2",  3200.75, 50, 3400.50),
-    ("SHARE 3",  300.25, 75, 390.00),
-    ("SHARE 4",  3000.50, 30, 3800.75),
-    ("SHARE 5",   700.00, 20, 790.00)
-]
 
-total_cost = 0
-total_amount_gained_or_lost = 0
-
-for share in shares_held:
-    cost_price = share[1]
-    number_of_shares = share[2]
-    selling_price = share[3]
-
-    total_cost += cost_price * number_of_shares
-    total_amount_gained_or_lost += (selling_price - cost_price) * number_of_shares
-
-percentage_profit_or_loss = ((total_amount_gained_or_lost / total_cost) * 100) if total_cost != 0 else 0
-
-print("Total cost of the portfolio: $", total_cost)
-print("Total amount gained or lost: $", total_amount_gained_or_lost)
-print("Percentage profit made or loss incurred: ", round(percentage_profit_or_loss, 2), "PERCENT")
