@@ -25,3 +25,17 @@ print(data)
 print("\nTuple containing all names:", all_names)
 print("Tuple containing all roll numbers:", all_roll_numbers)
 print("Tuple containing all marks:", all_marks)
+
+Output:
+
+List of tuples containing name, roll number, and marks:
+
+[('ASHWIN', 9277, 77), ('MITHUN', 1309, 36), ('DEEPIKA', 7091, 50), ('DHEEMATH', 7911, 44), ('ARTHI', 3029, 88), ('AJAY', 4707, 70)]
+
+
+
+Tuple containing all names: ('ASHWIN', 'MITHUN', 'DEEPIKA', 'DHEEMATH', 'ARTHI', 'AJAY')
+
+Tuple containing all roll numbers: (9277, 1309, 7091, 7911, 3029, 4707)
+
+Tuple containing all marks: (77, 36, 50, 44, 88, 70)
