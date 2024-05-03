@@ -1,0 +1,17 @@
+from operator import itemgetter
+
+
+items_and_prices = [
+    ("Apple", 22.5),
+    ("Banana", 10.75),
+    ("Orange", 33.0),
+    ("Grapes", 40.25),
+    ("Watermelon", 60.0)
+]
+
+
+sorted_items_and_prices = sorted(items_and_prices, key=itemgetter(1), reverse=True)
+
+
+for item, price in sorted_items_and_prices:
+    print(f"{item}: Rs.{price
